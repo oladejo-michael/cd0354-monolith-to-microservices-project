@@ -1,3 +1,7 @@
+language: node_js
+node_js:
+  - 16
+
 # Build
 - docker build -t udagram-api-feed ./udagram-api-feed
 - docker build -t udagram-api-feed ./udagram-api-user
