@@ -27,7 +27,11 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.2.1",
     "reflect-metadata": "^0.1.13",
+<<<<<<< HEAD
     "sequelize": "^5.22.4",
+=======
+    "sequelize": "^4.44.4",
+>>>>>>> 29b55cd4011b52eece6768a684693f6aa3e0b435
     "sequelize-typescript": "^0.6.9"
   },
   "devDependencies": {

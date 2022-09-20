@@ -6,12 +6,20 @@ import {IndexRouter} from './controllers/v0/index.router';
 
 import bodyParser from 'body-parser';
 import {config} from './config/config';
+<<<<<<< HEAD
 import {V0_FEED_MODELS} from './controllers/v0/model.index';
+=======
+import {V0_FEED_MODELS, V0_USER_MODELS} from './controllers/v0/model.index';
+>>>>>>> 29b55cd4011b52eece6768a684693f6aa3e0b435
 
 
 (async () => {
   await sequelize.addModels(V0_FEED_MODELS);
+<<<<<<< HEAD
  
+=======
+  await sequelize.addModels(V0_USER_MODELS);
+>>>>>>> 29b55cd4011b52eece6768a684693f6aa3e0b435
 
   console.debug("Initialize database connection...");
   await sequelize.sync();
